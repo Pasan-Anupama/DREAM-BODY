@@ -1,0 +1,73 @@
+.start{
+    background-image: url('https://th.bing.com/th/id/R.57445fd49446750b0b7644ab1d7fae49?rik=Ztcp8KBi6jWV0A&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fHD-Bodybuilding-Wallpapers.jpg&ehk=VtEwuJwgXkthpjWWyL%2bwPa6rjedtZCMYl18hC51JCMU%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    min-height:100vh;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: left;
+    border-right: 1px solid #bbb;
+    font-size: 125%;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color:rgb(58, 3, 3);
+    opacity: 1;
+}
+
+.active{
+    background-color:rgb(58, 3, 3);
+}
+
+header{
+    font-style: italic;
+    background-color: rgb(24,23,22);
+    padding: 25px;
+    text-align: center;
+    font-size: 175%;
+    color: rgb(128,128,128);
+}
+
+section{
+    display: -webkit-flex;
+    display: flex;
+}
+
+.article1{
+     background-color: rgb(128,128,128);
+     width: 50%;
+}
+
+.topic1{
+    color: black;
+    font-style: italic;
+    font-size: 200%;
+    text-align: center;
+}
+
+.topic1_content{
+    margin: 25px;
+    padding: 5px;
+    font-size: 125%;
+}

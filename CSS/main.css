@@ -1,0 +1,53 @@
+.begin{
+    background-image: url('https://images.wallpapersden.com/image/download/bodybuilding_bGdlZWWUmZqaraWkpJRmbmdlrWZlbWU.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+header{
+    font-style: italic;
+    background-color: rgb(48, 48, 47);
+    padding: 25px;
+    text-align: center;
+    font-size: 175%;
+    color: rgb(128,128,128);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: fit-content;
+}
+  
+nav{
+    float: left;
+    width: 50%;
+}
+
+article{
+    height: fit-content;
+    padding: 20px;
+    width: 50%;
+    float: left;
+} 
+
+.topic1,.topic2,.topic3,.topic4,.topic5{
+    text-align: center;
+    font-size: 250%;
+}
+
+.para1,.para2,.para3,.para4,.para5{
+    font-size: 150%;
+    margin: 25px;
+    padding: 5px;
+}
+li{
+    font-size: 150%;
+}
+
+
